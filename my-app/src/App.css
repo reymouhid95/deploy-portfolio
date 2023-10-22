@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  color: #282c34;
+}
+
+.navbar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    url("../src/assets/images/1.png");
+}
+
+.accueil {
+  border-bottom: 3px solid #fc9511;
+}
+
+.banner {
+  width: auto;
+  min-height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    url("../src/assets/images/1.png");
+}
+
+.sub-banner {
+  border: 1px solid white;
+  border-bottom: none;
+}
+
+.vector {
+  height: 200px;
+  background-image: url("../src/assets/images/vector.png");
+}
+
+.picture {
+  height: 70vh;
+  background-image: url(../src/assets/images/picture.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.text-warning {
+  color: #fc9511 !important;
+}
+
+.icon {
+  color: #fc9511;
+  font-size: 1.5rem;
+}
+
+.presentation span {
+  background-image: url(../src/assets/images/Ellipse.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 20px !important;
+}
+
+.tri {
+  color: #009687;
+}
+
+Button {
+  border: 1px solid #009687 !important;
+  color: #009687 !important;
+}
+
+.card:hover {
+  outline: 2px solid #fc9511 !important;
+}
+
+.img {
+  height: 150px;
+  text-align: center !important;
+  object-fit: cover;
+}
+
+.title:hover {
+  color: #009687;
+}
+
+Button:hover {
+  background-color: #fc9511 !important;
+  border: none !important;
+  color: white !important;
+  transition: 1s;
+}
+
+.titre {
+  color: #009687;
+}
+
+.date {
+  color: #fc9511;
+}
+
+.background {
+  background-color: black;
+  background-image: url("../src/assets/images/background.png");
+  min-height: 150px;
+  opacity: 0.8;
+}
+
+.boots-icon {
+  font-size: 4rem;
+}
+
+.send {
+  background-color: #fc9511 !important;
+  border: none !important;
+  color: white !important;
+}
+
+.send:hover {
+  background-color: #009687 !important;
+  transition: 1s !important;
+}
+
+.picture {
+  height: 500px !important;
+  object-fit: cover;
+}
+
+.footer {
+  height: 200px;
+  background: linear-gradient(180deg, #fff 40.63%, #009687 106.25%);
+}
